@@ -1,14 +1,14 @@
 function rollDice(){
 let randomNumber1 = Math.floor(Math.random() * 6) + 1;
 let randomImage = "dice" + randomNumber1 + ".png";
-let randomImageSource = "/images/" + randomImage;
+let randomImageSource = "images/" + randomImage;
 document.querySelector(".img1").setAttribute("src", randomImageSource);
 
 
 
 let randomNumber2 = Math.floor(Math.random() * 6) + 1;
 let randomImage1 = "dice" + randomNumber2 + ".png";
-let randomImageSource1 = "/images/" + randomImage1;
+let randomImageSource1 = "images/" + randomImage1;
 
 document.querySelector(".img2").setAttribute("src", randomImageSource1)
 
