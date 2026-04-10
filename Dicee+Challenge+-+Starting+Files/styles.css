@@ -39,3 +39,31 @@ footer {
   font-family: 'Indie Flower', cursive;
 
 }
+.btn{
+   margin-top: 40px;
+    padding: 15px 40px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #fff;
+    background: linear-gradient(45deg, #0614b1, #7a7acb);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    letter-spacing: 1px;
+    transition: all 0.3s ease;
+     display: block;
+    margin: 40px auto;
+    
+    
+    /* Glow effect */
+    box-shadow: 0 0 10px #01040a, 0 0 20px #020239, 0 0 40px #010b28;
+}
+.btn:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 20px #410dc5, 0 0 40px #3333ff, 0 0 80px #0d042c;
+}
+
+/* Click effect */
+.btn:active {
+    transform: scale(0.95);
+}
