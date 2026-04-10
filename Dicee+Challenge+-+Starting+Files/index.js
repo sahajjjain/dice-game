@@ -1,3 +1,4 @@
+function rollDice(){
 let randomNumber1 = Math.floor(Math.random() * 6) + 1;
 let randomImage = "dice" + randomNumber1 + ".png";
 let randomImageSource = "/images/" + randomImage;
@@ -20,3 +21,5 @@ else if (randomNumber1 < randomNumber2){
 else{
 document.querySelector("h1").innerHTML = "🤝 Draw!";
 }
+}
+document.querySelector(".btn").addEventListener("click", rollDice);
